@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">
+      <img src="assets/logo.png" alt="" />
+      <a href="#profile">Portfolio.</a>
+    </div>
+    <div class="links">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">
+      <a href="#">Portfolio.</a>
+    </div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <a href="#about" onclick="toggleMenu()">About</a>
+        <a href="#experience" onclick="toggleMenu()">Experience</a>
+        <a href="#projects" onclick="toggleMenu()">Projects</a>
+        <a href="#contact" onclick="toggleMenu()">Contact</a>
+      </div>
+    </div>
+  </nav>
+  <section id="home">
+    <header>
+      <div class="section-text">
+        <p class="text-p1">Hello, I'm</p>
+        <h1 class="title-name">Teo Turculet</h1>
+        <p class="text-p2">Frontend Developer</p>
+        <div class="btn-container">
+          <button class="btn btn-1" onclick="window.open('./assets/Resume Teofil Turculet.pdf')">
+            Download CV
+          </button>
+          <button class="btn btn-2" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div class="socials-container">
+          <img src="assets/linkedin.png" alt="My linkedin picture" class="icon"
+            onclick="location.href='https://www.linkedin.com/in/teofil-turculet-452408286/'" />
+          <img src="assets/github.png" alt="My linkedin picture" class="icon"
+            onclick="location.href='https://github.com/TeoT12/'" />
+        </div>
+      </div>
+      <div class="profile">
+        <img src="./assets/profilepicture1.png" alt="Teo Turculet profile picture" />
+      </div>
+    </header>
+  </section>
+  <section id="about">
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="details-container">
+        <div class="about-container">
+          <div class="experience details">
+            <img src="assets/experience.png" class="icon" />
+            <h3>Experience</h3>
+            <p>4+ years <br />Data Specialist</p>
+          </div>
+          <div class="education details">
+            <img src="assets/education.png" class="icon" />
+            <h3>Education</h3>
+            <p>Bachelor's degree: Management</p>
+            <p>High School: Philology</p>
+          </div>
+        </div>
+        <div class="aboutme-text">
+          <p>
+            I'm Teo and I'm a senior data specialist. I consider myself an honest person with a strong work ethic.
+            I have an interest in continuous learning and personal growth, always to improve my skills,
+            using my technical know-how to benefit other people and organisations.
+            I enjoy facing challenges, firmly believing that determination and passion achieve goals and objectives.
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="experience">
+    <h1 class="title">Experience</h1>
+    <div class="experience-container">
+      <div class="about-containers">
+        <div class="frontend-section">
+          <h2>Frontend Development</h1>
+            <div class="article-container">
+              <article>
+                <img src="assets/checkmark.png" class="icon">
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="assets/checkmark.png" class="icon">
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="assets/checkmark.png" class="icon">
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="assets/checkmark.png" class="icon">
+                <div>
+                  <h3>jQuery</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="assets/checkmark.png" class="icon">
+                <div>
+                  <h3>React</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img src="assets/checkmark.png" class="icon">
+                <div>
+                  <h3>Bootstrap</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+        </div>
+
+        <div class="backend-section">
+          <h2>Backend Development</h1>
+            <div class="article-container">
+              <article>
+                <img src="assets/checkmark.png" class="icon">
+                <div>
+                  <h3>Node JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="assets/checkmark.png" class="icon">
+                <div>
+                  <h3>PostgreSQL</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img src="assets/checkmark.png" class="icon">
+                <div>
+                  <h3>Express JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="assets/checkmark.png" class="icon">
+                <div>
+                  <h3>Git</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="assets/checkmark.png" class="icon">
+                <div>
+                  <h3>APIs</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img src="assets/checkmark.png" class="icon">
+                <div>
+                  <h3>Python</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+        </div>
+      </div>
+  </section>
+  <section id="projects">
+    <h1 class="title">Projects</h1>
+    <div class="experience-container">
+      <div class="details-container">
+        <div class="article-container">
+          <img src="assets/porche.png" alt="Project1" class="project-img">
+        </div>
+        <h2 class="experience-sub-title project-title">Porsche</h2>
+        <div class="btn-container">
+          <button class="btn btn-color-2 btn-project"
+            onclick="location.href='https://github.com/TeoT12/Porsche'">Github</button>
+          <button class="btn btn-color-2 btn-project" onclick="location.href='https://teot12.github.io/Porsche/'">Live
+            Demo</button>
+        </div>
+      </div>
+      <div class="details-container">
+        <div class="article-container">
+          <img src="assets/login-form.png" alt="Project1" class="project-img">
+        </div>
+        <h2 class="experience-sub-title project-title">Login Form</h2>
+        <div class="btn-container">
+          <button class="btn btn-color-2 btn-project"
+            onclick="location.href='https://github.com/TeoT12/LoginForm'">Github</button>
+          <button class="btn btn-color-2 btn-project" onclick="location.href='https://teot12.github.io/LoginForm/'">Live
+            Demo</button>
+        </div>
+      </div>
+      <div class="details-container">
+        <div class="article-container">
+          <img src="assets/todo.png" alt="Project1" class="project-img">
+        </div>
+        <h2 class="experience-sub-title project-title">To Do List</h2>
+        <div class="btn-container">
+          <button class="btn btn-color-2 btn-project"
+            onclick="location.href='https://github.com/TeoT12/TodoList'">Github</button>
+          <button class="btn btn-color-2 btn-project" onclick="location.href='https://todolist-how0.onrender.com/'">Live
+            Demo</button>
+        </div>
+      </div>
+      <div class="details-container">
+        <div class="article-container">
+          <img src="assets/musicen.png" alt="Project1" class="project-img">
+        </div>
+        <h2 class="experience-sub-title project-title">Music Centre</h2>
+        <div class="btn-container">
+          <button class="btn btn-color-2 btn-project"
+            onclick="location.href='https://github.com/TeoT12/MusicCentre'">Github</button>
+          <button class="btn btn-color-2 btn-project"
+            onclick="location.href='https://teot12.github.io/MusicCentre/'">Live Demo</button>
+        </div>
+      </div>
+      <div class="details-container">
+        <div class="article-container">
+          <img src="assets/wearherapp.png" alt="Project1" class="project-img">
+        </div>
+        <h2 class="experience-sub-title project-title">Weather App</h2>
+        <div class="btn-container">
+          <button class="btn btn-color-2 btn-project"
+            onclick="location.href='https://github.com/TeoT12/WeatherApp'">Github</button>
+          <button class="btn btn-color-2 btn-project"
+            onclick="location.href='https://weatherapp-w2ba.onrender.com'">Live Demo</button>
+        </div>
+      </div>
+      <div class="details-container">
+        <div class="article-container">
+          <img src="assets/calculator.png" alt="Project1" class="project-img">
+        </div>
+        <h2 class="experience-sub-title project-title">Calculator</h2>
+        <div class="btn-container">
+          <button class="btn btn-color-2 btn-project"
+            onclick="location.href='https://github.com/TeoT12/Calculator'">Github</button>
+          <button class="btn btn-color-2 btn-project"
+            onclick="location.href='https://teot12.github.io/Calculator/'">Live Demo</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+    <p>Get in Touch</p>
+    <div class="title">Contact Me</div>
+    <div class="contact-info-container">
+      <div class="contact-info email">
+        <img src="assets/email.png" alt="email-image">
+        <p id="email">teofil.turculet97@gmail.com</p>
+      </div>
+      <div class="contact-info phone">
+        <img src="assets/phone.png" alt="email-image">
+        <p id="number">+40 773 759 890</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Copyright © <span id="year"></span> Teo Turculet. All Rights Reserved. </p>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="script.js" ></script>
+</body>
+
+</html>
